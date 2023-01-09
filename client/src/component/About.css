@@ -1,0 +1,38 @@
+/* .head{
+    border: 1px dashed white;
+    padding-top: 200px;
+    
+} */
+
+ @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); 
+.header1, .header2{
+    text-align: left;
+    color: white;
+    margin-left:10% ;
+    /* width: 500px; */
+    letter-spacing: 4px;
+
+   
+    font-family: 'Righteous', cursive;
+
+}
+.header1{
+    padding-top: 250px;
+    font-size: 50px;
+ 
+   
+}
+.header2{
+    margin-top: 3%;
+    
+}
+.image{
+    background-image: url('https://drive.google.com/uc?export=view&id=1YJaMZ5Xd9qdXg2-6sY-VcNIZBofG7tJI');
+    background-repeat: no-repeat;
+    background-size: cover;   
+    height: 83.5vh; 
+}
+
+/* .image{
+    display: flex;
+} */

@@ -1,0 +1,89 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+tr:nth-child(even) {
+  background-color: white;
+}
+.container-winner {
+  transition: ease all 0.75s;
+  background-color: rgba(255, 99, 71, 0.153);
+  border-radius: 7px;
+  width: 700px;
+  height: 280px;
+  padding: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  overflow: auto;
+}
+.winner-slogan {
+  padding: 7px 7px 7px 1px;
+  color: #ccab00;
+  font-size: 1.5em;
+  margin: 7px 0px;
+  text-align: justify;
+  overflow: auto;
+}
+.winner-info {
+  width: 73%;
+  max-height: 280px;
+  display: inline-block;
+  margin-right: 1%;
+  overflow: auto;
+}
+.winner-votes {
+  width: 25%;
+  padding: 3px;
+  display: inline-block;
+  margin-left: 1%;
+}
+.winner-tag {
+  text-align: center;
+  color: red;
+  font-weight: 900;
+  font-size: 40px;
+  margin-left: 200px;
+}
+.votes-tag {
+  margin-top: 0;
+  text-align: left;
+  color:black;
+  font-weight: 700;
+}
+.vote-count {
+  margin-top: 11px;
+  padding: 3px;
+  font-size: 57px;
+  overflow-y: auto;
+  text-align: center;
+  font-weight: 700;
+}
+@media all and (max-width: 850px) {
+  .container-winner {
+    width: 700px;
+  }
+}
+@media all and (max-width: 750px) {
+  .container-winner {
+    width: 600px;
+  }
+}
+@media all and (max-width: 650px) {
+  .container-winner {
+    width: 400px;
+  }
+}
+@media all and (max-width: 400px) {
+  .container-winner {
+    width: 300px;
+  }
+}
