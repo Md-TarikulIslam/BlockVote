@@ -23,10 +23,10 @@
 
    ```shell
    git clone https://github.com/Md-TarikulIslam/BlockVote.git
-   cd dVoting
+   cd BlockVote
    ```
 
-1. Run local Ethereum blockchain
+1. Run local Ethereum blockchain / Launch Ganache GUI.
 
    ```shell
    ganache-cli
@@ -44,7 +44,7 @@
 1. Deploy smart contract to the (local) blockchain network (i.e ganache-cli)
 
    ```shell
-   # on the dVoting directory
+   # on the BlockVote directory
    truffle migrate
    ```
 
